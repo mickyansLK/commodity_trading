@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Airflow
+airflow/logs/
+logs/
+*.log
+
+# Docker
+*.pid
+*.db
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# Poetry
+poetry.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test/coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Misc
+*.bak
+*.swp
+*.swo
+
+# Ignore data and output files
+/data/
+*.parquet
+*.json
+*.csv
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
